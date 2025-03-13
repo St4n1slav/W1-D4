@@ -10,4 +10,6 @@ public class DipendenteFullTime extends Dipendente {
     public double calculateSalary() {
         return 1100;
     }
+
+
 }
