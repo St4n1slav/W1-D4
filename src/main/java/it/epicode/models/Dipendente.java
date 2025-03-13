@@ -1,10 +1,10 @@
 package it.epicode.models;
 
-public class Dipendente {
+public abstract class Dipendente {
     private String matricola;
     private double stipendio;
     private Diparimento diparimento;
-
+    public abstract double calculateSalary ();
 
     public String getMatricola() {
         return matricola;
