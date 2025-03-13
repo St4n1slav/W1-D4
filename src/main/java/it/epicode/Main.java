@@ -16,6 +16,7 @@ public class Main {
        //Per ogni dipendente di tipo Dipendente nell'Arrey dipendenti:
        for (Dipendente dipendente : dipendenti) {
            System.out.println(dipendente.getMatricola());
+           System.out.println(dipendente.getStipendio());
 
        }
     }
